@@ -433,7 +433,7 @@ textarea {
 .project-details__content {
   padding: 2rem 0;
   max-width: 90rem;
-  margin: auto; }
+  margin: 7rem; }
   .project-details__content-title {
     font-weight: 700;
     font-size: 2.8rem;
@@ -526,7 +526,7 @@ textarea {
         height: 4.5rem;
         margin-right: 1.2rem; } }
   .header__logo-img {
-    width: 100%;
+    width: auto%;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -609,14 +609,14 @@ textarea {
   color: #fff; }
   .main-footer__upper {
     display: flex;
-    justify-content: space-evenly;
-    padding: 3rem 0; }
+    justify-content: space-evenly;}
     @media only screen and (max-width: 56.25em) {
       .main-footer__upper {
         padding: 3rem 0; } }
     @media only screen and (max-width: 37.5em) {
       .main-footer__upper {
-        display: block; } }
+        display: block; 
+        margin: 3rem; } }
   .main-footer__row-1 {
     order: 2; }
     @media only screen and (max-width: 56.25em) {
@@ -824,8 +824,9 @@ textarea {
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 650px) {
   .column {
-    width: 100%;
+    width: 80%;
     display: block;
+    margin: 5rem;
   }
 }
 
@@ -849,4 +850,11 @@ textarea {
 
 .title {
   color: grey;
+}
+
+/* Text overflow stylizing */
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
