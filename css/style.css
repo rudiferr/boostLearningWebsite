@@ -734,6 +734,7 @@ textarea {
       max-width: 1000px;
       position: relative;
       margin: auto;
+      padding-top: 65px
     }
     
     /* Hide the images by default */
