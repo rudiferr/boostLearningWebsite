@@ -133,6 +133,7 @@ textarea {
 
 .main-container {
   max-width: 120rem;
+  padding: 2rem;
   margin: auto;
   width: 92%; }
 
@@ -168,7 +169,7 @@ textarea {
   padding: 4rem 0; }
   @media only screen and (max-width: 56.25em) {
     .sec-pad {
-      padding: 8rem 0; } }
+      padding: 2rem 0; } }
 
 .text-primary {
   color: #fff;
@@ -431,9 +432,9 @@ textarea {
     text-align: center; }
 
 .project-details__content {
-  padding: 2rem 0;
-  max-width: 90rem;
-  margin: 7rem; }
+  padding: 3rem 0;
+  max-width: 300rem;
+  margin: 4rem; }
   .project-details__content-title {
     font-weight: 700;
     font-size: 2.8rem;
@@ -453,7 +454,7 @@ textarea {
 
 .project-details__content-main {
   width: 100%;
-  max-width: 70rem;
+  max-width: 100rem;
   margin: auto; }
 
 .project-details__desc {
