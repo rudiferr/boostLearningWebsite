@@ -415,7 +415,7 @@ textarea {
       min-height: unset; } }
   .project__content {
     padding: 16rem 0 7rem 0;
-    max-width: 90rem;
+    max-width: 180rem;
     width: 92%;
     margin: auto; }
     @media only screen and (max-width: 37.5em) {
