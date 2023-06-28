@@ -529,7 +529,7 @@ textarea {
         height: 4.5rem;
         margin-right: 1.2rem; } }
   .header__logo-img {
-    width: auto%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
